@@ -1,17 +1,18 @@
 .bg-navBarMobile {
-    background-color: #8a1da5a9 !important;
-  }
-  
-  a.navBarMobile:hover, a.navBarMobile:focus,
-  button.navBarMobile:hover,
-  button.navBarMobile:focus {
-    background-color: #27022e !important;
-  }
+  background-color: #5b2d64 !important;
+}
 
-  html { 
-    margin:0;
-    padding:0;
-    background: url(C:\Users\Krys\Desktop\Background\irene-kredenets-E95Lpkg-bgc-unsplash_m.jpg) no-repeat center fixed; 
-    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-    background-size: cover; /* version standardisée */
-  }
+a.navBarMobile:hover, a.navBarMobile:focus,
+button.navBarMobile:hover,
+button.navBarMobile:focus {
+  background-color: #5b2d64 !important;
+}
+
+
+body {
+  background-image:url(Fond_coco.jpg);
+}
+
+.text-navbar {
+  color: rgb(255, 250, 203) !important;
+}
