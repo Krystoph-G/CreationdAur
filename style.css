@@ -16,3 +16,7 @@ body {
 .text-navbar {
   color: rgb(255, 250, 203) !important;
 }
+
+.bg-mon-histoire {
+  background-color: rgba(225, 217, 241, 0.89)!important;
+}
