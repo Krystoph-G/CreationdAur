@@ -21,13 +21,13 @@
       <div class="collapse navbar-collapse" id="menuMobile">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"><h3>Mon histoire</h3><span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="C:\Users\Krys\Desktop\Formation STUDI\Evaluation_2_FrontEnd_HTML_CSS_Bootstrap\FichierBase\Main.html"><h3>Mon histoire</h3><span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#"><h3>Mes réalisations</h3></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><h3>Evènements</h3></a>
+            <a class="nav-link" href="C:\Users\Krys\Desktop\Formation STUDI\Evaluation_2_FrontEnd_HTML_CSS_Bootstrap\FichierBase\evenements.html"><h3>Evènements</h3></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#"><h3>Contacts</h3></a>
@@ -36,7 +36,7 @@
       </div>
     </nav>
   </header>
-  <main class="container mt-2 md-2 rounded bg-mon-histoire"> 
+  <main class="container mt-2 md-2 rounded"> 
     <div class="row">
       <h2 class=" col-12">Evènements à venir</h2>
     </div>
@@ -65,7 +65,7 @@
                     Venus
                   </p>
                   <div class="shop row no-gutters justify-content-end">
-                    <a href="#" class="btn btn-success justify-content-end">Participer</a>
+                    <a href="#" class="btn btn-success justify-content-end" data-toggle="modal" data-target="#participation">Participer</a>
                   </div>
               </div>
           </div>
@@ -94,7 +94,7 @@
                   Venus
                 </p>
                 <div class="shop row no-gutters justify-content-end">
-                  <a href="#" class="btn btn-success justify-content-end">Participer</a>
+                  <a href="#" class="btn btn-success justify-content-end" data-toggle="modal" data-target="#participation">Participer</a>
                 </div>
             </div>
         </div>
@@ -123,7 +123,7 @@
                   Venus
                 </p>
                 <div class="shop row no-gutters justify-content-end">
-                  <a href="#" class="btn btn-success justify-content-end">Participer</a>
+                  <a href="#" class="btn btn-success justify-content-end" data-toggle="modal" data-target="#participation">Participer</a>
                 </div>
             </div>
         </div>
@@ -154,7 +154,7 @@
                     Venus
                   </p>
                   <div class="shop row no-gutters justify-content-end">
-                    <a href="#" class="btn btn-success justify-content-end">Participer</a>
+                    <a href="#" class="btn btn-success justify-content-end" data-toggle="modal" data-target="#participation">Participer</a>
                   </div>
               </div>
           </div>
@@ -183,7 +183,7 @@
                   Venus
                 </p>
                 <div class="shop row no-gutters justify-content-end">
-                  <a href="#" class="btn btn-success justify-content-end">Participer</a>
+                  <a href="#" class="btn btn-success justify-content-end" data-toggle="modal" data-target="#participation">Participer</a>
                 </div>
             </div>
         </div>
@@ -212,10 +212,42 @@
                   Venus
                 </p>
                 <div class="shop row no-gutters justify-content-end">
-                  <a href="#" class="btn btn-success justify-content-end">Participer</a>
+                  <a href="#" class="btn btn-success justify-content-end" data-toggle="modal" data-target="#participation">Participer</a>
                 </div>
             </div>
         </div>
+      </div>
+    </div>
+    <div class="modal fade" id="participation" tabindex="-1" role="dialog" aria-labelledby="participationModllabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="contactModalLabel">Participer à l'évènement</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+              </div>
+              <div class="modal-body">
+                  <form>
+                      <div class="form-group">
+                          <label for="Name">Nom</label>
+                          <input type="Name" class="form-control" id="Name" name="Name">
+                      </div>
+                      <div class="form-group">
+                          <label for="Name">Prénom</label>
+                          <input type="text" class="form-control" id="Name" name="Name">
+                      </div>
+                      <div class="form-group">
+                          <label for="message">Mes expériences</label>
+                          <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                      </div>
+                  </form>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                  <button type="button" class="btn btn-success">Envoyer ma demande de particaption</button>
+              </div>
+          </div>
       </div>
     </div>
   </main>
