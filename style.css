@@ -20,3 +20,7 @@ body {
 .bg-mon-histoire {
   background-color: rgba(225, 217, 241, 0.89)!important;
 }
+
+.mb-6 {
+  margin-bottom:4rem!important
+}
