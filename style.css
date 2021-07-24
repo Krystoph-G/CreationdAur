@@ -11,6 +11,10 @@ button.navBarMobile:focus {
 
 body {
   background-image:url(Fond_coco.jpg);
+  background-image:url(Fond_coco.jpg);
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .text-navbar {
@@ -18,7 +22,7 @@ body {
 }
 
 .bg-mon-histoire {
-  background-color: rgba(225, 217, 241, 0.89)!important;
+  background-color: rgba(225, 217, 241, 0.70)!important;
 }
 
 .mb-6 {
